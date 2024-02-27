@@ -26,9 +26,9 @@ const Index = () => {
   return (
     <Flex direction="column" align="center" justify="center" height="100vh">
       <Box>
-        <Text fontSize="xl">3D Space Simulation</Text>
+        <Text fontSize="xl">Universe Simulation</Text>
         <Text>
-          Current Position: X: {position.x}, Y: {position.y}, Z: {position.z}
+          Explore the Universe: Current Position - X: {position.x}, Y: {position.y}, Z: {position.z}
         </Text>
       </Box>
       <Flex>
