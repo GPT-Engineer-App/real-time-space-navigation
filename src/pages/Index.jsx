@@ -17,7 +17,7 @@ const Index = () => {
   // Simulate 3D space update
   useEffect(() => {
     const interval = setInterval(() => {
-      console.log("Updating 3D space simulation...");
+      console.log("Updating realistic 3D space simulation...");
     }, 1000); // Update every second
 
     return () => clearInterval(interval);
